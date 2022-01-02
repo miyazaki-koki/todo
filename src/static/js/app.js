@@ -4,6 +4,7 @@ function App() {
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h1> ToDo App by Koki Miyazaki</h1>
                     <TodoListCard />
                 </Col>
             </Row>
@@ -137,7 +138,6 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     };
 
     return (
-        <h1> ToDo App by Koki Miyazaki</h1>
         <Container fluid className={`item ${item.completed && 'completed'}`}>
             <Row>
                 <Col xs={1} className="text-center">
