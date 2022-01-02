@@ -137,9 +137,9 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     };
 
     return (
+        <h1> ToDo App by Koki Miyazaki</h1>
         <Container fluid className={`item ${item.completed && 'completed'}`}>
             <Row>
-                <h1> ToDo App by Koki Miyazaki</h1>
                 <Col xs={1} className="text-center">
                     <Button
                         className="toggles"
